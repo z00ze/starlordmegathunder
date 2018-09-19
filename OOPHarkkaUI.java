@@ -94,7 +94,7 @@ public class OOPHarkkaUI extends javax.swing.JFrame implements ActionListener, I
         paneeli.setBounds(50, 50, 400, 200);
         JLabel background = new JLabel();
         background.setBounds(0, 0, 400, 200);
-        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.jpg")));
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.png")));
         background.addMouseListener(new MouseAdapter() {
                 public void mouseClicked(MouseEvent e) {
                     if(chr.isAlive()){
